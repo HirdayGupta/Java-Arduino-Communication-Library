@@ -1,7 +1,7 @@
 # How to use:
 To use the library, download and important both 'Arduino.jar' and 'jSerialComm-1.3.11.jar' into your JAVA project. Instructions on how to do so can be found on the [instructions page](https://github.com/HirdayGupta/Java-Arduino-Communication-Library/wiki/Instructions) in the wiki. 
 
-The source code for the library and examples on how to use it can be found in the 'src' folder.
+The source code for the library and examples on how to use it can be found in the 'src' folder. Feel free to contribute!
 
 # Description
 Serial Communication between Arduino and Java has never been simpler. A better alternative to the RXTX library, the JavaArduinoLibrary is an easy to use library with simple methods that allow you, the JAVA programmer, to read and write from the serial port. Seamless serial communication with the port of your choice. It uses the [jSerialComm library](https://github.com/Fazecast/jSerialComm)  by fazecast for serial port access. **Refer to the [instructions page](https://github.com/HirdayGupta/Java-Arduino-Communication-Library/wiki/Instructions) in the wiki for more information.** <br>
