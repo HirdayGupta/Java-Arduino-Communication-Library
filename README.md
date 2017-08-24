@@ -1,3 +1,6 @@
+![SourceForge Weekly Downloads](https://img.shields.io/badge/downloads-50%2Fweek-green.svg)
+![SourceForge Total Downloads](https://img.shields.io/badge/downloads-2k%2B%2Ftotal-brightgreen.svg)
+
 # How to use:
 To use the library, download and important both 'Arduino.jar' and 'jSerialComm-1.3.11.jar' into your JAVA project. Instructions on how to do so can be found on the [instructions page](https://github.com/HirdayGupta/Java-Arduino-Communication-Library/wiki/Instructions) in the wiki. 
 
