@@ -1,5 +1,5 @@
 char data; //variable to store incoming data from JAVA 
-int LEDpin = 12 //pin number LED is connected to
+int LEDpin = 12; //pin number LED is connected to
 void setup() {
   pinMode(LEDpin, OUTPUT);
   Serial.begin(9600);
