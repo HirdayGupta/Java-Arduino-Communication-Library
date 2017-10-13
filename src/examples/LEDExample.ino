@@ -1,6 +1,7 @@
 #define LED_PIN (int8_t)13 //pin number LED is connected to
 
 char data; //variable to store incoming data from JAVA 
+
 void setup() {
   pinMode(LED_PIN, OUTPUT);
   Serial.begin(9600);
