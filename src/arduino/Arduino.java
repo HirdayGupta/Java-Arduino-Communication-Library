@@ -113,7 +113,8 @@ public class Arduino {
 		comPort.setComPortTimeouts(SerialPort.TIMEOUT_SCANNER, 0, 0);
 		try{Thread.sleep(5);} catch(Exception e){}
 		PrintWriter pout = new PrintWriter(comPort.getOutputStream());
-		for(int i = 0; i < s.length() - noOfChars; i += noOfChars){
+		int i;
+		for(i = 0; i < s.length() - noOfChars; i += noOfChars){
 			pout.write(s.substring(i,i+noOfChars));
 			pout.flush();
 			try{Thread.sleep(delay);}catch(Exception e){}
